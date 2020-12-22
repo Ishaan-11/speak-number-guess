@@ -34,7 +34,7 @@ function checkNumber(msg) {
 
   // Check if valid number
   if (Number.isNaN(num)) {
-    msgEl.innerHTML = '<div>That is not a valid number</div>';
+    msgEl.innerHTML += '<div>That is not a valid number</div>';
     return;
   }
 
